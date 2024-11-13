@@ -84,15 +84,5 @@ This repository contains a collection of data science and machine learning proje
 - **Librosa**: Audio processing library used in the COVID-19 classification project.
 - **TensorFlow/Keras**: Deep learning frameworks used for brain tumor classification.
 
-## Setup and Installation:
-To run any of these projects locally, ensure that Python is installed and run the following command to install the required libraries:
-
-```bash
-pip install pandas numpy seaborn matplotlib scikit-learn xgboost nltk librosa tensorflow keras
-```
-
----
-
-Each project in this repository is documented in Jupyter Notebooks, allowing for easy understanding and reproduction of the experiments. You can explore the projects to gain insights into various machine-learning techniques and their real-world applications, especially in the healthcare domain.
 
 
