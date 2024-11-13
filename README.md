@@ -8,13 +8,13 @@ This repository contains a collection of data science and machine learning proje
 
 ## 1. **Eskom Residual Energy Demand Forecasting**
 
-    - **Objective**: Forecast South Africa’s residual electricity demand to optimize Eskom’s resource management and load shedding strategies.
+- **Objective**: Forecast South Africa’s residual electricity demand to optimize Eskom’s resource management and load shedding strategies.
 
-    -**Models:** Random Forest, XGBoost, CatBoost Regressors
+- **Models**: Random Forest, XGBoost, CatBoost Regressors
 
-    -**Best Model Accuracy:** CatBoost Regressor with R² score of 0.9988
+- **Best Model Accuracy:** CatBoost Regressor with R² score of 0.9988
 
-    -**Description:** This project leverages machine learning to forecast residual energy demand based on Eskom’s energy generation and demand data. Using feature engineering and model evaluation techniques, the **CatBoost Regressor** 
+- **Description:** This project leverages machine learning to forecast residual energy demand based on Eskom’s energy generation and demand data. Using feature engineering and model evaluation techniques, the **CatBoost Regressor** 
     was identified as the most effective model, accurately capturing demand patterns influenced by renewable energy sources, imports, exports, and dispatchable generation. 
     
 ### 2. **COVID-19 Classification Using Audio Features**
