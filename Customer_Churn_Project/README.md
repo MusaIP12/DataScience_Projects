@@ -32,7 +32,12 @@ You can explore the dashboard here:
 
 ## Dashboard Screenshot
 
-You can add a screenshot below to show what the dashboard looks like:
+![Customer_Churn_Project](Customer_Churn_Project/Screenshot_1.png)
+![Customer_Churn_Project](Customer_Churn_Project/Screenshot_2.png)
+![Customer_Churn_Project](Customer_Churn_Project/Screenshot_3.png)
+
+## Churn Predictor App
+![Customer_Churn_Project](Customer_Churn_Project/Churn_Predictor.png)
 
 ## Running Project Locally
 You can run this project on your local machine by following these steps:
