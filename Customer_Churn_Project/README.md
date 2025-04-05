@@ -1,32 +1,52 @@
-# Customer Churn Prediction Dashboard
+# 💼 Customer Churn Prediction Dashboard
 
-This project analyzes customer churn for a bank using machine learning. It includes a full pipeline:
+This project aims to predict customer churn for a bank using machine learning. It walks through a complete pipeline, from data analysis to model training and deployment, ending with an interactive web dashboard.
 
--  EDA & Feature Engineering in Jupyter
-- 📈 Trained models: Logistic Regression & XGBoost
-- 📊 Streamlit Dashboard
--  Live prediction form
--  Interactive filters (Gender & Geography)
+🔗 **[Click here to view the live dashboard](https://datascienceprojects-customerchurnpredictor.streamlit.app)**
 
-## Live App
 
-👉 [Click here to launch the dashboard](https://yourusername.streamlit.app) *(link after Step 7)*
+## Project Summary
 
-## 📁 Folder Contents
+The goal of this project is to identify which bank customers are likely to leave (churn), using machine learning. This helps the bank understand churn behaviour and improve customer retention.
 
-| File                          | Description |
-|-------------------------------|-------------|
-| `churn_dashboard.py`          | Streamlit dashboard app |
-| `churn_dashboard_data.csv`    | Final dataset with features |
-| `xgb_model.pkl`               | Trained XGBoost model |
-| `Customer_Churn_Notebook.ipynb` | Full Jupyter notebook |
-| `original_dataset.csv`        | Original raw dataset |
-| `requirements.txt`            | List of Python packages |
+We used a real-world dataset and followed these steps:
 
-##  Run Locally
+1. **Data Cleaning and Exploration** – Analysed patterns related to age, account activity, geography, and product usage.
+2. **Feature Engineering** – Created meaningful features like `EngagedCustomer` and `AgeGroup`.
+3. **Model Training** – Trained and compared Logistic Regression and XGBoost models.
+4. **Model Evaluation** – Selected XGBoost for its stronger recall and ROC-AUC performance.
+5. **Dashboard Deployment** – Built a Streamlit app for visual insights and live prediction.
+
+
+## Live Dashboard
+
+You can explore the dashboard here:  
+👉 [https://datascienceprojects-customerchurnpredictor.streamlit.app](https://datascienceprojects-customerchurnpredictor.streamlit.app)
+
+### Key Features:
+- 📊 Churn analysis by age group, geography, products, and engagement
+- 🎚️ Interactive filters (Gender and Geography)
+- 🔮 Live prediction form for new customers
+
+
+
+## Dashboard Screenshot
+
+You can add a screenshot below to show what the dashboard looks like:
+
+## Running Project Locally
+You can run this project on your local machine by following these steps:
 
 ```bash
-git clone https://github.com/yourusername/customer-churn-prediction.git
-cd customer-churn-prediction
+# 1. Clone the repository
+git clone https://github.com/yourusername/Data_Science_Projects.git
+
+# 2. Navigate to the churn project folder
+cd Data_Science_Projects/customer_churn_prediction
+
+# 3. Install dependencies
 pip install -r requirements.txt
+
+# 4. Launch the dashboard
 streamlit run churn_dashboard.py
+
