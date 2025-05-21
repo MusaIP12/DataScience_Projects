@@ -125,8 +125,11 @@ You can also configure it to run automatically on a schedule (e.g. daily) using 
 ---
 ## Dashboard Screenshots
 
-![Credit_Risk_Pipeline](Screenshot 2025-05-21 080555.png)
-![Credit_Risk_Pipeline](Screenshot 2025-05-21 080634.png)
+### Daily 
+![Screenhot One](Screenshot_one.png).
+
+## Cummulative
+![Credit_Risk_Pipeline](Screenshot_two.png)
 
 ## Author
 
