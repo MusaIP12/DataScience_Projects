@@ -9,8 +9,8 @@ from xgboost import plot_importance
 st.set_page_config(page_title="Customer Churn Dashboard", layout="centered")
 
 # Load data and model
-df = pd.read_csv(r"C:\Users\phiri\Documents\churn_dashboard_data.csv")
-xgb2 = joblib.load(r"C:\Users\phiri\DataScience_Projects\Customer_Churn_Project\xgb_model.pkl")
+df = pd.read_csv(r"Customer_Churn_Project/churn_dashboard_data.csv")
+xgb2 = joblib.load(r"Customer_Churn_Project/xgb_model.pkl")
 
 # Set custom contrasting colors
 sns.set_style("whitegrid")
