@@ -123,6 +123,10 @@ python scripts/main.py
 You can also configure it to run automatically on a schedule (e.g. daily) using a task scheduler.
 
 ---
+## Dashboard Screenshots
+
+![Credit_Risk_Pipeline](Screenshot 2025-05-21 080555.png)
+![Credit_Risk_Pipeline](Screenshot 2025-05-21 080634.png)
 
 ## Author
 
