@@ -1,4 +1,4 @@
-# 💼 Customer Churn Prediction Dashboard
+# Customer Churn Prediction Dashboard
 
 This project aims to predict customer churn for a bank using machine learning. It walks through a complete pipeline, from data analysis to model training and deployment, ending with an interactive web dashboard.
 
@@ -21,12 +21,12 @@ We used a real-world dataset and followed these steps:
 ## Live Dashboard
 
 You can explore the dashboard here:  
-👉 [https://datascienceprojects-customerchurnpredictor.streamlit.app](https://datascienceprojects-customerchurnpredictor.streamlit.app)
+[https://datascienceprojects-customerchurnpredictor.streamlit.app](https://datascienceprojects-customerchurnpredictor.streamlit.app)
 
 ### Key Features:
-- 📊 Churn analysis by age group, geography, products, and engagement
-- 🎚️ Interactive filters (Gender and Geography)
-- 🔮 Live prediction form for new customers
+- Churn analysis by age group, geography, products, and engagement
+- Interactive filters (Gender and Geography)
+- Live prediction form for new customers
 
 
 
